@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="hero-content flex-col lg:flex-row">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center">
   <div
-    className="mx-3 mt-6 flex flex-col rounded-lg  bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    className="mx-3 mt-6 flex flex-col rounded-lg  bg-gray-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="https://attack-on-python.gitlab.io/attack-on-python/" target="_blank" rel="noopener noreferrer">
       <img
         className="rounded-t-lg"
@@ -39,7 +39,7 @@ export default function Projects() {
   </div>
 
   <div
-    className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    className="mx-3 mt-6 flex flex-col rounded-lg bg-gray-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="https://gitlab.com/Anhe0098/project-beta" target="_blank" rel="noopener noreferrer">
       <img
         className="rounded-t-lg"
@@ -67,7 +67,7 @@ export default function Projects() {
   </div>
   
   <div
-    className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    className="mx-3 mt-6 flex flex-col rounded-lg bg-gray-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="https://gitlab.com/Mxia09/microservice-two-shot" target="_blank" rel="noopener noreferrer">
       <img
         className="rounded-t-lg"

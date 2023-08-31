@@ -15,7 +15,7 @@ export default function ContactModal({ visible, onClose }) {
                   <div className="mx-auto w-full max-w-[550px]">
                       <div className="flex items-center min-h-screen ">
                           <div className="container mx-auto">
-                              <div className="max-w-md mx-auto my-10 bg-white dark:bg-zinc-900 p-5 rounded-md shadow-sm">
+                              <div className="max-w-md mx-auto my-10 bg-gray-700 dark:bg-zinc-900 p-5 rounded-md shadow-sm">
                                   <div className="text-center">
                                       <h1 className="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200 font-lacquer">Let's get in touch</h1>
                                   </div>

@@ -22,14 +22,12 @@ export default function AboutMe({ onOpenModal }) {
         Currently, as a full-stack engineer, my determination to effect positive change in the world remains undiminished, and I am thrilled by the prospect of leveraging technology to bring about this transformation. 
         </p>
         
-      <p><a
-  href={require('./resume.pdf')} 
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn-primary mt-5text-neutral-100 font-semibold px-6 py-3 bg-cyan-500 rounded shadow hover:bg-cyan-400"
+      <p><button
+  onClick={() => window.open(require('./resume.pdf'), '_blank')}
+  className="btn-primary mt-5 text-neutral-100 font-semibold px-6 py-3 bg-cyan-500 rounded shadow hover:bg-cyan-400"
 >
-Resume
-</a>
+  Resume
+</button>
 
       
 <button onClick={onOpenModal} className="btn-primary mt-5 text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-400 ml-5">Contact Me</button></p>
